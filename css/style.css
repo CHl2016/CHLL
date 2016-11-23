@@ -267,7 +267,35 @@ margin-top: 200px;
 @keyframes new_message {
   100% { color: rgba(34, 34, 34, 0); }
 }
-
+/*--------------------------------------About-----------------------------------*/
+.about-left-area div.col-xs-12,
+.about-right-area div.col-xs-12 {
+    padding: 0;
+    height: 250px;
+}
+.about-left-area > h2{
+    float:left;
+}
+.about-right-area > h2{
+    float: right;
+}
+.about-left-area .about-area,
+.about-right-area .about-area{
+    background: #eee;
+}
+.about-area {
+    height: inherit;
+    text-align: center;
+    font-size: 25px;
+}
+.about-left-area div.col-xs-3,
+.about-right-area div.col-xs-3 {
+    height: inherit;
+}
+.img-about {
+    width: 100%;
+    height: inherit;
+}
 
 /*--------------------------------------ФУТЕР-----------------------------------*/
 .footer{
@@ -286,9 +314,7 @@ margin-top: 200px;
 .footer ul > li > a{
     color: #9d9d9d;
 }
-.footer ul > li {
-    text-align: enter;
-}
+
 
 /*------------------------------------СОЦСЕТИ КНОПКИ-----------------------------*/
 .social-network-but{
