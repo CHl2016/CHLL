@@ -81,9 +81,10 @@
 
 
 /*----------------------------------------РЕЙТИНГИ-------------------------------*/
-.row-rating {
-    background-image: url(http://www.lorempixel.com/1000/500); 
+.row-img {
     height: 500px;
+    background-image: url(http://www.lorempixel.com/1000/500); 
+    background-size: cover;
     background-repeat: no-repeat; 
     background-position: center center;
 }
@@ -267,6 +268,11 @@ margin-top: 200px;
 @keyframes new_message {
   100% { color: rgba(34, 34, 34, 0); }
 }
+
+/*Заказал*/
+.profile table span {
+    float: right;
+}
 /*--------------------------------------About-----------------------------------*/
 .about-left-area div.col-xs-12,
 .about-right-area div.col-xs-12 {
@@ -316,44 +322,3 @@ margin-top: 200px;
 }
 
 
-/*------------------------------------СОЦСЕТИ КНОПКИ-----------------------------*/
-.social-network-but{
-    margin: 0; 
-    padding: 0; 
-     list-style-type: none;
-    color: white;
-}
-.social-network-but li p {
-    color: white;
-    font-size: 13px;
-	font-weight: 600;
-	letter-spacing: 0.5px;
-	text-transform: uppercase;
-	margin: 2px 0 0px;
-}
-.social-network-but li i{
-  font-size: 50px;
-	float: left;
-	width: 60px;  
-}
-.social-network-but li a{
-    color: #ffffff;
-	padding: 25px 65px 25px 40px;
-	width: 100%;
-	box-sizing: border-box;
-}
-
-.social-network-but li:hover:before {
-	background-color: #ffffff;
-	color: #999999;
-}
-
-.vk-links {
-    background:#248cc9;
-}
-.twitter-links {
-    background: #4ec6f8;
-}
-.facebk-links {
-    background:#4d6bab;
-}
