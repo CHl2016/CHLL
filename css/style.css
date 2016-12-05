@@ -1,5 +1,5 @@
-/*#80122E :::::::::::::::::::::::::::основной цвет(красный)*/
-/*#9B3144 rgba(155,49,68):::: побочный цвет(красный светл.)*/
+/*#80122E gba(128,18,46):::::::основной цвет(красный)*/
+/*#9B3144 rgba(155,49,68):::::побочный цвет(красный светл.)*/
 /*#651625 ::::::::::::::::::::побочный цвет (красный темн.)*/ 
 
 
@@ -310,6 +310,7 @@ margin-top: 200px;
 }
 /*---------------------------Challenge(направления)------------------------------*/
 .img_background{
+    cursor: pointer;
     -webkit-box-shadow: 5px 5px 8px 2px rgba(0,0,0,0.4) ;
     box-shadow: 5px 5px 8px 2px rgba(0,0,0,0.4) ;
     margin: 15px 0 15px 0;
@@ -318,6 +319,56 @@ margin-top: 200px;
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center center;
+}
+.img_background h2{
+    padding: 60px 35px 0 0;
+    margin-bottom: 0;
+    text-align: right;
+    color: #80122E;
+}
+._font_chl {
+    color: #fff;
+}
+.back-op {
+   width: inherit;
+    height: inherit;
+    position: relative;
+}
+.back-op > p{
+    background: rgba(0,0,0,0.2);
+    margin: 0px 35px 0 35px;
+    text-align: right;
+    color: #fff;
+}
+.back-op-menu p{
+    font-size: 1.4em;
+    padding: 10px;
+    border-top: 1px solid;
+    margin: 0px 35px 0 35px;
+    text-align: right;
+    color: #fff;
+    opacity: .0;
+}
+.back-op-menu p > a{
+    color: #fff;
+    
+}
+.img_background:hover .back-op{
+background: rgba(0,0,0,0.7);
+    -webkit-transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+.img_background:hover p{
+    background: none;
+      -webkit-transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+.img_background:hover .back-op-menu p{
+    opacity: 1;
 }
 /*--------------------------------------ФУТЕР-----------------------------------*/
 .footer{
