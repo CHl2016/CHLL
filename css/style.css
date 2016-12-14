@@ -293,7 +293,7 @@ margin-top: 200px;
 }
 .about-left-area .about-area,
 .about-right-area .about-area{
-    background: #eee;
+    background: rgba(0,0,0,0.2);
 }
 .about-area {
     height: inherit;
