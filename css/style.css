@@ -23,6 +23,7 @@
     padding: 0px
 }
 .sidebar h4 {
+    background: #80122E;
     margin-bottom: 0;
     border-bottom: 1px solid #9d9d9d;
     padding-bottom: 2px;
@@ -50,6 +51,18 @@
 #LEFT_MENU a{
     border-bottom: 1px solid #651625;
 }
+.hash {
+    text-align: justify;
+    word-spacing: 5px;
+    max-height: 250px;
+    overflow: hidden;
+
+}
+.hash a {
+      font-size: 20px;
+    color: #9d9d9d;
+}
+
 /*--------------------------------------Основное поле-----------------------------*/
 
 .main-area {
@@ -141,8 +154,10 @@ margin-top: 200px;
     border-bottom: 1px solid #eee;
 }
 /*--------------------------------------ПРОФИЛЬ-----------------------------------*/
+/*миниатюра профиля в нав панели*/
 .profile-top{
- float: right;   
+ float: right;
+ margin-right: -30px;
 }
 .profile-top > li > a{
     padding-left: 5px;
@@ -158,6 +173,10 @@ margin-top: 200px;
 }
 .btn-profile-foto > img {
     border-radius: 100%;
+}
+.P_A{
+    padding: 0 4px;
+    background: #80122E;
 }
 
 
