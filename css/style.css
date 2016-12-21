@@ -54,13 +54,16 @@
 .hash {
     text-align: justify;
     word-spacing: 5px;
-    max-height: 250px;
-    overflow: hidden;
+    max-height: 450px;
+    overflow-y: hidden;
 
 }
 .hash a {
       font-size: 20px;
-    color: #9d9d9d;
+    color: #9B3144;
+}
+.hash a:hover {
+    color: #fff;
 }
 
 /*--------------------------------------Основное поле-----------------------------*/
