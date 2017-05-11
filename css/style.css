@@ -101,6 +101,24 @@
     margin: auto ;
 }
 
+/*----------------------------------------Рега-------------------------------*/
+.registr-form {
+    border: 0px;
+    border-bottom: 1px solid;
+    border-radius: 0px;
+    border-color: #ccc;
+    box-shadow: none;
+    background: 0;
+}
+.registr  {
+   background-image: url(http://www.lorempixel.com/1000/500); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+}
+
+
+
 
 /*----------------------------------------РЕЙТИНГИ-------------------------------*/
 .row-img {

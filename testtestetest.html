@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Challenge-online</title>
+    <link rel="shortcut icon" type="image/x-icon" media="all" href="file:///C:/Users/Artem/Desktop/web/challenge-oline/pik/foto3.png" />
+    <!--logo -->
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-2 navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand visible-xs">Challenge-online</a>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="responsive-menu">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Соглашения</a></li>
+                            <li><a href="#modal-1" data-toggle="modal">Войти/Регистрация</a></li>
+                            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Language</a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a href="#">Русский</a></li>
+                                    <li><a href="#">English</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav profile-top hidden-sm hidden-xs">
+                            <li>
+                                <button class="btn btn-profile-foto">
+                                    <img src="http://www.lorempixel.com/300/300" alt="" class="img-responsive">
+                                </button>
+                            </li>
+                            <li><a href="#"><b>Artem Naumenko</b></a></li>
+                            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-caret-down"></i></a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a href="#">Уведомления</a></li>
+                                    <li><a href="#">Сообщения</a></li>
+                                    <li><a href="#">Мои видео</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Выйти</a></li>
+                                </ul>
+                            </li>
+                            <li class="P_A"><a href="#"> <i class="fa fa-rub"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-2 sidebar">
+                <div class="col-xs-12 logo hidden-xs"><img src="pik/ChallengeEND.png" class="img-responsive" alt=""></div>
+                <div class="col-xs-12 logo logo-xs visible-xs"><img src="pik/ChallengeENDmini.png" class="img-responsive" alt=""></div>
+                <ul class="col-xs-12 nav nav-sidebar hidden-xs" id="LEFT_MENU">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-pencil fa-fw fa-2x"></i>
+                            <span>Заказать</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Challenge.html">
+                            <i class="fa fa-video-camera fa-fw fa-2x"></i> 
+                            <span>Челенджи</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-trophy fa-fw fa-2x"></i>
+                            <span>Рейтинги</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-comments-o fa-fw fa-2x"></i>
+                            <span>Стена</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-file-text fa-fw fa-2x"></i>
+                            <span>Правила</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-exclamation fa-fw fa-2x"></i>
+                            <span>Предложения</span>
+                        </a>
+                </li>
+                 <li>
+                        <a href="#">
+                            <i class="fa fa-star fa-fw fa-2x"></i>
+                            <span>ТОП 100</span>
+                        </a>
+                </li>
+                </ul>
+                <ul class="col-xs-12 nav nav-sidebar visible-xs smart-menu">
+                    <li><a href="#"><i class="fa fa-pencil fa-2x"></i></a></li>
+                    <li><a href="Challenge.html"><i class="fa fa-video-camera fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-trophy fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-comments-o fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-file-text fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-exclamation fa-2x"></i></a></li>
+                </ul>
+                <ul class="col-xs-12 nav nav-sidebar visible-sm visible-xs smart-menu">
+                    <li class="border-foto">
+                        <button class="btn btn-profile-foto">
+                            <img src="http://www.lorempixel.com/300/300" alt="" class="img-responsive">
+                        </button>
+                    </li>
+                    <li class="hidden-xs"><a href="#">Artem Naumenko</a></li>
+                </ul>
+                <div class="col-xs-12 hidden-xs hidden-sm">
+                    <p class="hash">
+                        <a href="">#2015</a>
+                        <a href="">#спорт</a>
+                        <a href="">#диплом</a>
+                        <a href="">#футбол</a>
+                        <a href="">#треш</a>
+                        <a href="">#мяч</a>
+                        <a href="">#hardchallenge</a>
+                        <a href="">#sds</a>
+                        <a href="">#fl,dlf,</a>
+                        <a href="">#fl,dlf,</a>
+                        <a href="">#fggv</a>
+                        <a href="">#fdf</a>
+                        <a href="">#dgfhf</a>
+                        <a href="">#ty5</a>
+                        <a href="">#sadff</a>
+                        <a href="">#jhhj</a>
+                        <a href="">#dfdsad</a>
+                        <a href="">#sadf</a>
+                        <a href="">#sdff</a>
+                        <a href="">#ghg</a>
+                        <a href="">#fl,dlf,</a>
+                        <a href="">#fl,dlf,</a>
+                        <a href="">#fgbb</a>
+                        <a href="">#fl,dlf,</a>
+                        <a href="">#sesdSS</a>
+                        <a href="">#asgggh</a>
+                        <a href="">#DFcc</a>
+                        <a href="">#fdf</a>
+                        <a href="">#dgfhf</a>
+                        <a href="">#ty5</a>
+                        <a href="">#sadff</a>
+                        <a href="">#jhhj</a>
+                        <a href="">#dfdsad</a>
+                        <a href="">#sadf</a>
+                        <a href="">#fdf</a>
+                        <a href="">#dgfhf</a>
+                        <a href="">#ty5</a>
+                        <a href="">#sadff</a>
+                        <a href="">#jhhj</a>
+                        <a href="">#dfdsad</a>
+                        <a href="">#sadf</a>
+                        <a href="">#jhhj</a>
+                        <a href="">#dfdsad</a>
+                        <a href="">#sadf</a>
+                        <a href="">#sdff</a>
+                        <a href="">#ghg</a>
+                        <a href="">#fl,dlf,</a>
+                        <a href="">#fl,dlf,</a>
+                        <a href="">#fgbb</a>
+                           <a href="">#fggv</a>
+                        <a href="">#fdf</a>
+                        <a href="">#dgfhf</a>
+                        <a href="">#ty5</a>
+                        <a href="">#sadff</a>
+                        <a href="">#jhhj</a>
+                        <a href="">#dfdsad</a>
+                        <a href="">#sadf</a>
+                        <a href="">#sdff</a>
+                        <a href="">#ghg</a>
+                        <a href="">#fl,dlf,</a>
+                        <a href="">#fl,dlf,</a>
+                        <a href="">#fgbb</a>
+                    </p>
+                </div>
+                <div class="col-xs-12 bottom-press">
+                    <div class="row">
+                        <h4 class="hidden-xs">Join in us:</h4>
+                        <ul class="col-xs-12 nav nav-sidebar logo">
+                            <li><a href="#"><i class="fa fa-instagram fa-fw fa-2x"></i><span class="hidden-xs">2098k followers</span></a>
+                            <li><a href="#"><i class="fa fa-vk fa-fw fa-2x"></i><span class="hidden-xs">1258k followers</span></a></li>
+                            <li><a href="Challenge.html"><i class="fa fa-twitter fa-fw fa-2x"></i><span class="hidden-xs">450k followers</span></a></li>
+                            <li><a href="#"><i class="fa fa-facebook fa-fw fa-2x"></i><span class="hidden-xs">968k followers</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="main-area col-xs-10 col-xs-offset-2">
+              <h3>Создать Челендж</h3>
+           <div class="row">
+                 <div class="col-xs-12">
+                  
+                   </div>
+                    <div class="col-xs-12">
+                        <form action="" class="form-inline">
+                            <input type="text" class="form-control" placeholder="Название">
+                        </form>
+
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="btn-group cr">
+                            <button class="btn btn-default"><i class="fa fa-paperclip"></i></button>
+                            <button class="btn btn-default"><i class="fa fa-font"></i></button>
+                            <button class="btn btn-default"><i class="fa fa-bold"></i></button>
+                            <button class="btn btn-default"><i class="fa fa-italic"></i></button>
+                            <button class="btn btn-default"><i class="fa fa-underline"></i></button>
+                            <button class="btn btn-default"><i class="fa fa-link"></i></button>
+                            <button class="btn btn-default"><i class="fa fa-unlink"></i></button>
+                            <button class="btn btn-default"><i class="fa fa-list-ol"></i></button>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="Цена">
+                                    <div class="input-group-addon">RUB</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-success pull-right pulll">Ок</button>
+                            <button class="btn btn-danger pull-right">Отмена</button>
+                        </form>
+                    </div>
+                </div>
+           
+           
+           
+           
+            </div>
+
+
+
+            <div class="footer col-sm-10 col-sm-offset-2 hidden-xs bottom-press">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <h4>Документы</h4>
+                        <ul>
+                            <li><a href="#">Пункт 11223332</a></li>
+                            <li><a href="#">Пункт 2ss</a></li>
+                            <li><a href="#">Пункт 3sdds</a></li>
+                            <li><a href="#">Пункт 4s</a></li>
+                            <li><a href="#">Пункт 5sssss</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <h4>Медиа</h4>
+                        <ul>
+                            <li><a href="#">Пункт 11223332</a></li>
+                            <li><a href="#">Пункт 3sdds</a></li>
+                            <li><a href="#">Пункт 5sssss</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <h4>Документы</h4>
+                        <ul>
+                            <li><a href="#">Пункт 11223332</a></li>
+                            <li><a href="#">Пункт 2ss</a></li>
+                            <li><a href="#">Пункт 3sdds</a></li>
+                            <li><a href="#">Пункт 4s</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <h4>Документы</h4>
+                        <ul>
+                            <li><a href="#">Пункт 11223332</a></li>
+                            <li><a href="#">Пункт 2ss</a></li>
+                            <li><a href="#">Пункт 3sdds</a></li>
+                            <li><a href="#">Пункт 5sssss</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>Challenge-online везде</h4>
+                        <div class="col-sm-12 col-md-6">
+                            <img src="pik/logo-app_store_end.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <img src="pik/google_play.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-sm-12">
+                            <img src="" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Вход</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="E-mail" value="">
+                        <input type="password" class="form-control" placeholder="Password" value="">
+                        <form action="" class="form-inline">
+
+                            <button type="submit" class="btn btn-danger">&nbsp;Войти&nbsp;</button>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Запомнить меня
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                    <a href="#" class="btn btn-danger btn-block">Регистрация</a>
+                    <br>
+                    <p>ИЛИ ВОЙТИ ЧЕРЕЗ:</p>
+                    <div class="btn-group btn-group-lg btn-group-justified">
+                        <a href="" class="btn btn-danger"><i class="fa fa-vk"></i></a>
+                        <a href="" class="btn btn-danger"><i class="fa fa-facebook"></i></a>
+                        <a href="" class="btn btn-danger"><i class="fa fa-twitter"></i></a>
+                        <a href="" class="btn btn-danger"><i class="fa fa-odnoklassniki"></i></a>
+                        <a href="" class="btn btn-danger"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/salvattore.min.js"></script>
+</body>
+
+</html>
